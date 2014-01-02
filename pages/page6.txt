@@ -1,7 +1,9 @@
-<p>Now let's set a value for the =alice&lt;+email&gt; attribute. To do so, we
+<h1>Step 6: Context Nodes: Values</h1>
+
+<p>Now let's set a value for the <b>=alice</b><b>&lt;+email&gt;</b> attribute. To do so, we
 first create a value context node under the attribute context node.
 The identifier for a contextual arc to a value context node is always &amp;.
-Therefore the address of the value context node in the graph is =alice&lt;+email&gt;&.</p>
+Therefore the address of the value context node in the graph is <b>=alice</b><b>&lt;+email&gt;</b>&.</p>
 
 <p>In the value context node, we can now add a literal arc that establishes
 a literal node. The identifier for a literal arc is also always &amp;.
