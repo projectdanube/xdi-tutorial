@@ -11,11 +11,11 @@ contextual arc to the child context node:</p>
 
 <p class="indent">
 <span class="xri">
-//=alice<br>
-//=bob<br>
-//@acme<br>
-=alice//&lt;+email&gt;<br>
-=alice&lt;+email&gt;//&<br>
+//=alice
+//=bob
+//@acme
+=alice//&lt;+email&gt;
+=alice&lt;+email&gt;//&
 </span>
 </p>
 
@@ -24,7 +24,7 @@ the predicate is <span class="xri">&</span>, and the object is the literal data:
 
 <p class="indent">
 <span class="xri">
-=alice&lt;+email&gt;&amp;/&amp;/"alice@email.com"<br>
+=alice&lt;+email&gt;&amp;/&amp;/"alice@email.com"
 </span>
 </p>
 
@@ -34,6 +34,6 @@ and the object is the address of the target context node:</p>
 
 <p class="indent">
 <span class="xri">
-=alice/+friend/=bob<br>
+=alice/+friend/=bob
 </span>
 </p>

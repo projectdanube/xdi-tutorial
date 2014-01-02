@@ -4,15 +4,15 @@
 
 <p class="indent">
 <span class="xri">
-{<br>
-    "/": [<br>
-        "@acme"<br>
-    ],<br>
-    "=alice/+friend": [<br>
-        "=bob"<br>
-    ],<br>
-    "=alice<+email>&/&": "alice@email.com"<br>
-}<br>
+{
+    "/": [
+        "@acme"
+    ],
+    "=alice/+friend": [
+        "=bob"
+    ],
+    "=alice<+email>&/&": "alice@email.com"
+}
 </span>
 </p>
 

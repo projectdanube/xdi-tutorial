@@ -15,9 +15,9 @@ to fully describe the graph. The others are consiered to be implied and can ther
 
 <p class="indent">
 <span class="xri">
-//@acme<br>
-=alice&lt;+email&gt;&amp;/&amp;/"alice@email.com"<br>
-=alice/+friend/=bob<br>
+//@acme
+=alice&lt;+email&gt;&amp;/&amp;/"alice@email.com"
+=alice/+friend/=bob
 </span>
 </p>
 
