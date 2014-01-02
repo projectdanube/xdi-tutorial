@@ -3,15 +3,14 @@
 <p>Another way of serializing an XDI graph is the <span class="term">XDI/JSON</span> format.</p>
 
 <p class="indent">
-<span class="xri">
-{
+<span class="xri">{
     "/": [
         "@acme"
     ],
     "=alice/+friend": [
         "=bob"
     ],
-    "=alice<+email>&/&": "alice@email.com"
+    "=alice&lt;+email&gt;&amp;/&amp;": "alice@email.com"
 }
 </span>
 </p>

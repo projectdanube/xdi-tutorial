@@ -14,8 +14,7 @@ other statements.</p>
 to fully describe the graph. The others are consiered to be implied and can therefore be omitted.</p>
 
 <p class="indent">
-<span class="xri">
-//@acme
+<span class="xri">//@acme
 =alice&lt;+email&gt;&amp;/&amp;/"alice@email.com"
 =alice/+friend/=bob
 </span>
