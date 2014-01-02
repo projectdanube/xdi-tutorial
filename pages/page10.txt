@@ -1,0 +1,20 @@
+Listing all statements in a graph is a simple
+way to serialize the graph into a string so it
+can be stored or transmitted over a network.
+
+Usually not all statements of the graph have to
+be serialized in order to fully describe the graph.
+Most contextual statements are usually implied by
+other statements.
+
+In our example, even though the graph consists of 
+seven statements, only the three are actually needed
+to fully describe the graph:
+
+   //=alice
+   //=bob
+//@acme
+   =alice//<+email>
+   =alice<+email>//&
+=alice<+email>&/&/”alice@email.com”
+=alice/+friend/=bob

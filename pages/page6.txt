@@ -1,0 +1,9 @@
+Now let's set a value for the =alice<+email> attribute. To do so, we
+first create a value context node under the attribute context node.
+The identifier for a contextual arc to a value context node is always &.
+Therefore the address of the value context node in the graph is =alice<+email>&.
+
+In the value context node, we can now add a literal arc that establishes
+a literal node. The identifier for a literal arc is also always &.
+Literal nodes hold the actual data in an XDI graph,
+for example "alice@email.com". All JSON data types are supported.

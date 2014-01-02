@@ -1,0 +1,114 @@
+* {
+	font-family: Calibri, Arial, Helvetica, sans-serif;
+	font-size: 10pt;
+}
+
+body {
+	padding: 0px;
+	margin: 0px;
+}
+
+form {
+	padding: 0px;
+	margin: 0px;
+}
+
+#main {
+	margin-top: 100px;
+	margin-left: 30px;
+	margin-right: 30px;
+}
+
+#header {
+	background-color: #d0d0d0;
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	padding: 10px;
+	width: 100%;
+}
+
+#applogo {
+}
+
+#appname {
+	color: black;
+	font-size: 1.5em;
+	font-weight: bold;
+	padding-left: 20px;
+	padding-top: 40px;
+}
+
+h1 {
+	font-size: 1.5em;
+	font-weight: bold;
+	width: 100%;
+	border-top: 2px solid black;
+	padding-top: 3px;
+}
+
+div.step {
+	padding-left: 50px;
+}
+
+input[type=text], textarea {
+	background-color: white;
+	border: 3px solid black;
+	padding: 5px;
+	font-family: Courier New, monospace;
+}
+
+input[type=button] {
+	padding: 5px;
+	font-family: Courier New, monospace;
+}
+
+select {
+	background-color: white;
+	border: 3px solid black;
+	padding: 5px;
+	font-family: Courier New, monospace;
+}
+
+div.result {
+	background-color: grey;
+	padding: 10px;
+	overflow: scroll;
+}
+
+div.result div {
+	font-family: Courier New, monospace;
+	white-space: pre;
+}
+
+div.linkcontracttemplatexdiheading {
+	font-size: 1.5em;
+	font-weight: bold;
+	font-color: white;
+	background-color: #1a709b;
+	padding: 10px;
+}
+
+div.metalinkcontractxdiheading {
+	font-size: 1.5em;
+	font-weight: bold;
+	font-color: white;
+	background-color: #1a709b;
+	padding: 10px;
+}
+
+div.messagexdiheading {
+	font-size: 1.5em;
+	font-weight: bold;
+	font-color: white;
+	background-color: #f15e22;
+	padding: 10px;
+}
+
+div.messagehtmlheading {
+	font-size: 1.5em;
+	font-weight: bold;
+	font-color: white;
+	background-color: #f15e22;
+	padding: 10px;
+}
