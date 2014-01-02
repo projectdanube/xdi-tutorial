@@ -1,6 +1,6 @@
 <h1>Step 1: Graph Model</h1>
 
-<p>XDI is a way of modeling, storing, and manipulating data.</p>
+<p>XDI is a technology for modeling, storing, and manipulating data.</p>
 <p>It fits into a similar category of technologies as JSON, XML and RDF, but also has a number
 of properties that distinguishes it.</p>
 <p>XDI is a <span class="term">graph-based data model</span>. This means that all data is expressed using nodes and
