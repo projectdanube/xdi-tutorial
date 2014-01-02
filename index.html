@@ -18,7 +18,7 @@
 
 		function load() {
 
-			$('#page').val('' + page + ' / ' + max);
+			$('#page').text('' + page + ' / ' + max);
 			$('#img').attr('src', 'pages/page' + page + '.jpg');
 			$.ajax({url:'pages/page' + page + '.txt', success: function(result) {
 				$('#txt').html(result);
