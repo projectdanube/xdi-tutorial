@@ -1,0 +1,106 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+
+<html>
+
+<head>
+
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<title>XDI Tutorial</title>
+	<link rel="stylesheet" target="_blank" href="style.css" TYPE="text/css" MEDIA="screen">
+	<script type="text/javascript" src="xdi.js"></script>
+	<script type="text/javascript" src="jquery-2.0.3.min.js"></script>
+	<script type="text/javascript" src="lodash.compat.min.js"></script>
+
+	<script type="text/javascript">
+
+		var page = 1;
+		var max = 11;
+
+		function load() {
+
+			$('#page').text('' + page + ' / ' + max);
+			$('#img').attr('src', 'pages/page' + page + '.jpg');
+			$.ajax({url:'pages/page' + page + '.txt', success: function(result) {
+				$('#txt').html(result);
+			}});
+		}
+
+		function next() {
+
+			if (page >= max) return;
+			page++; load();
+		}
+
+		function prev() {
+
+			if (page <= 1) return;
+			page--; load();
+		}
+
+		$(document).ready(function() {
+
+			load();
+			$("#prev").on("click", prev);
+			$("#next").on("click", next);
+		});
+
+	</script>
+
+</head>
+
+<body>
+
+	<div id="header">
+
+		<div style="float: right; padding-right: 20px;">
+			<table>
+			<tr>
+			<td><a href="javascript:void(0)"><img id="prev" class="arrow" alt="Prev" src="images/prev.png"></a></td>
+			<td width="60"><center><span id="page"></span></center></td>
+			<td><a href="javascript:void(0)"><img id="next" class="arrow" alt="Next" src="images/next.png"></a></td>
+			</tr>
+			</table>
+		</div>
+
+		<table>
+		<tr>
+		<td>
+		<img id="applogo" src="images/logo.png">
+		</td><td>
+		<span id="appname">XDI Tutorial</span>
+		</td>
+		</tr>
+		</table>
+
+	</div>
+
+	<div id="main">
+
+		<table width="100%">
+		<tr>
+		<td width="50%" valign="top">
+
+			<div>
+				<img id="img">
+			</div>
+
+		</td>
+		<td width="50%" valign="top">
+
+			<div id="txt"></div>
+
+		</td>
+		</tr>
+		</table>
+
+	</div>	
+
+</body>
+
+</html>
+
+
+
+
+
+
