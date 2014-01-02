@@ -6,10 +6,7 @@
 
 <p>Let's add <span class="xri">@acme</span> (an organization).</p>
 
-<p>We now have a graph consisting of 4 context nodes and 3 arcs.</p>
-
-<p>Arcs that establish new context nodes are called <span class="term">contextual arcs</span>.
-As we will see later, contextual arcs are one of three types of arcs.</p>
+<p>We now have a graph consisting of 4 context nodes and 3 contextual arcs.</p>
 
 <p>Depending on the identifiers, context nodes can fulfill different functions in an XDI graph.
 In this case, <span class="xri">=alice</span>, <span class="xri">=bob</span> and <span class="xri">@acme</span> are all considered 

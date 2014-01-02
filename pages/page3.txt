@@ -7,5 +7,8 @@ is associated with the arc that connects the two context nodes (see diagram).</p
 <p>In XDI, these nodes are also called <span class="term">context nodes</span>, since they create
 new contexts to nest more data under them.</p>
 
-<p><span class="xri">=alice</span> is the identifier associated with the arc, and at the same time
-it is also the <span class="term">address</span> of the new context node in the graph.</p>
+<p>The arcs that establish new context nodes are called <span class="term">contextual arcs</span>.
+As we will see later, contextual arcs are one of three types of arcs.</p>
+
+<p><span class="xri">=alice</span> is the identifier associated with the contextual arc, and at the same time
+it is also the <span class="term">address</span> of the context node in the graph.</p>
