@@ -19,7 +19,8 @@
 		function load() {
 
 			$('#img').attr('src', 'pages/page' + page + '.jpg');
-			$.ajax({url:'pages/page' + page + '.txt',success: function(result){
+			$.ajax({url:'pages/page' + page + '.txt', success: function(result) {
+				alert(result);
 				$('#txt').val(result);
 			}});
 		}
