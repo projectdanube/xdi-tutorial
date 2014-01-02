@@ -18,9 +18,9 @@
 
 		function load() {
 
-			$('#left').attr('src', 'pages/page' + page + '.jpg');
+			$('#img').attr('src', 'pages/page' + page + '.jpg');
 			$.ajax({url:'pages/page' + page + '.txt',success: function(result){
-				$('#right').html(result);
+				$('#txt').val(result);
 			}});
 		}
 
@@ -64,12 +64,14 @@
 		<tr>
 		<td width="50%" valign="top">
 
-			<div id="#left"></div>
+			<div>
+				<img id="#img">
+			</div>
 
 		</td>
 		<td width="50%" valign="top">
 
-			<div id="#right"></div>
+			<div id="#txt"></div>
 
 		</td>
 		</tr>
