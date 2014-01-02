@@ -20,7 +20,7 @@ form {
 }
 
 #header {
-	background-color: #d0d0d0;
+	background-color: #e0e0e0;
 	position: fixed;
 	left: 0px;
 	top: 0px;
@@ -68,47 +68,4 @@ select {
 	border: 3px solid black;
 	padding: 5px;
 	font-family: Courier New, monospace;
-}
-
-div.result {
-	background-color: grey;
-	padding: 10px;
-	overflow: scroll;
-}
-
-div.result div {
-	font-family: Courier New, monospace;
-	white-space: pre;
-}
-
-div.linkcontracttemplatexdiheading {
-	font-size: 1.5em;
-	font-weight: bold;
-	font-color: white;
-	background-color: #1a709b;
-	padding: 10px;
-}
-
-div.metalinkcontractxdiheading {
-	font-size: 1.5em;
-	font-weight: bold;
-	font-color: white;
-	background-color: #1a709b;
-	padding: 10px;
-}
-
-div.messagexdiheading {
-	font-size: 1.5em;
-	font-weight: bold;
-	font-color: white;
-	background-color: #f15e22;
-	padding: 10px;
-}
-
-div.messagehtmlheading {
-	font-size: 1.5em;
-	font-weight: bold;
-	font-color: white;
-	background-color: #f15e22;
-	padding: 10px;
 }
