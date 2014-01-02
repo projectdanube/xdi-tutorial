@@ -87,3 +87,7 @@ select {
 	padding: 5px;
 	font-family: Courier New, monospace;
 }
+
+a {
+	color: #6bb2f3;
+}
