@@ -1,4 +1,3 @@
-<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 
 <html>
@@ -15,9 +14,11 @@
 	<script type="text/javascript">
 
 		var page = 1;
+		var max = 10;
 
 		function load() {
 
+			$('#page').val('' + page + ' / ' + max);
 			$('#img').attr('src', 'pages/page' + page + '.jpg');
 			$.ajax({url:'pages/page' + page + '.txt', success: function(result) {
 				$('#txt').html(result);
@@ -26,11 +27,13 @@
 
 		function next() {
 
+			if (page >= max) return;
 			page++; load();
 		}
 
 		function prev() {
 
+			if (page <= 1) return;
 			page--; load();
 		}
 
@@ -51,6 +54,7 @@
 
 		<div style="float: right; padding-right: 20px;">
 			<a href="javascript:void(0)"><img id="prev" class="arrow" alt="Prev" src="images/prev.png"></a>
+			<span id="page"></span>
 			<a href="javascript:void(0)"><img id="next" class="arrow" alt="Next" src="images/next.png"></a>
 		</div>
 
