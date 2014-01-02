@@ -6,24 +6,12 @@ can be stored or transmitted over a network.</p>
 
 <p>Usually not all statements of the graph have to
 be serialized in order to fully describe the graph.
-Most contextual statements are usually <span class="term">implied</span> by
+Most contextual statements are <span class="term">implied</span> by
 other statements.</p>
 
 <p>In our example, even though the graph consists of 
 <span class="term">seven</span> statements, only <span class="term">three</span> are actually needed
 to fully describe the graph:</p>
-
-<p>
-<span class="xri">
-//=alice<br>
-//=bob<br>
-//@acme<br>
-=alice//&lt;+email&gt;<br>
-=alice&lt;+email&gt;//&<br>
-=alice&lt;+email&gt;&amp;/&amp;/”alice@email.com”<br>
-=alice/+friend/=bob<br>
-</span>
-</p>
 
 <p>
 <span class="xri">
