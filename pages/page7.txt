@@ -1,4 +1,4 @@
-<h1>Step 7: Literals</h1>
+<h1>Step 7: Literal Nodes</h1>
 
 <p>So there are two basic types of nodes in an XDI graph:
 Context nodes and literal nodes. </p>
