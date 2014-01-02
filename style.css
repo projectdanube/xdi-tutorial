@@ -39,6 +39,10 @@ form {
 	padding-top: 40px;
 }
 
+#txt {
+	font-family: Courier New, monospace;
+}
+
 h1 {
 	font-size: 1.5em;
 	font-weight: bold;
@@ -47,8 +51,8 @@ h1 {
 	padding-top: 3px;
 }
 
-div.step {
-	padding-left: 50px;
+img.arrow {
+	margin: 5px;
 }
 
 input[type=text], textarea {

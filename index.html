@@ -37,6 +37,8 @@
 		$(document).ready(function() {
 
 			load();
+			$("#prev").on("click", prev);
+			$("#next").on("click", next);
 		});
 
 	</script>
@@ -48,8 +50,8 @@
 	<div id="header">
 
 		<div style="float:right">
-			<img src="images/prev.png">
-			<img src="images/next.png">
+			<img id="prev" class="arrow" src="images/prev.png">
+			<img id="next" class="arrow" src="images/next.png">
 		</div>
 
 		<table>
