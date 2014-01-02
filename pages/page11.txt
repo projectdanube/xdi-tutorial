@@ -1,6 +1,6 @@
 <h1>Step 11: XDI/JSON</h1>
 
-<p>Another way of serializing an XDI graph is the <span class="term">XDI/JSON</span> format.</p>
+<p>Another way of serializing an XDI graph is the <span class="term">XDI/JSON</span> format:</p>
 
 <p class="indent">
 <span class="xri">{
@@ -15,4 +15,6 @@
 </span>
 </p>
 
-<p>The two formats are equivalent in terms of the XDI graphs they describe.</p>
+<p>Again, implied statements have been omitted in this case.</p>
+
+<p>The <span class="term">XDI DISPLAY</span> format and <span class="term">XDI/JSON</span> format are equivalent in terms of the XDI graphs they describe.</p>
