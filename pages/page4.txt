@@ -13,4 +13,4 @@ As we will see later, contextual arcs are one of three types of arcs.</p>
 
 <p>Depending on the identifiers, context nodes can fulfill different functions in an XDI graph.
 In this case, <span class="xri">=alice</span>, <span class="xri">=bob</span> and <span class="xri">@acme</span> are all considered 
-<span class="term">"entities"</span>.</p>
+<span class="term">entities</span>.</p>
