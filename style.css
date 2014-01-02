@@ -24,6 +24,7 @@ span.term {
 span.xri {
 	font-family: Courier New, monospace;
 	font-weight: bold;
+	white-space: pre;
 }
 
 #main {

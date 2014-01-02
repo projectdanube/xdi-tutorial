@@ -5,13 +5,13 @@
 <p class="indent">
 <span class="xri">
 {<br>
-&nbsp;&nbsp;"/": [<br>
-&nbsp;&nbsp;&nbsp;&nbsp;"@acme"<br>
-&nbsp;&nbsp;],<br>
-&nbsp;&nbsp;"=alice/+friend": [<br>
-&nbsp;&nbsp;&nbsp;&nbsp;"=bob"<br>
-&nbsp;&nbsp;],<br>
-&nbsp;&nbsp;"=alice<+email>&/&": "alice@email.com"<br>
+    "/": [<br>
+        "@acme"<br>
+    ],<br>
+    "=alice/+friend": [<br>
+        "=bob"<br>
+    ],<br>
+    "=alice<+email>&/&": "alice@email.com"<br>
 }<br>
 </span>
 </p>
