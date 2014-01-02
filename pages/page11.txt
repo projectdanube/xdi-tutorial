@@ -1,0 +1,19 @@
+<h1>Step 11: XDI/JSON</h1>
+
+<p>Another way of serializing an XDI graph is the <span class="term">XDI/JSON</span> format.</p>
+
+<p class="indent">
+<span class="xri">
+{
+&nbsp;&nbsp;"/": [
+&nbsp;&nbsp;&nbsp;&nbsp;"@acme"
+&nbsp;&nbsp;],
+&nbsp;&nbsp;"=alice/+friend": [
+&nbsp;&nbsp;&nbsp;&nbsp;"=bob"
+&nbsp;&nbsp;],
+&nbsp;&nbsp;"=alice<+email>&/&": "alice@email.com"
+}
+</span>
+</p>
+
+<p>The two formats are equivalent in terms of the XDI graphs they can describe.</p>

@@ -20,11 +20,11 @@ contextual arc to the child context node:</p>
 </p>
 
 <p>For a <span class="term">literal statement</span>, the subject is the address of a context node,
-the predicate is &, and the object is the literal data:</p>
+the predicate is <span class="xri">&</span>, and the object is the literal data:</p>
 
 <p class="indent">
 <span class="xri">
-=alice&lt;+email&gt;&amp;/&amp;/”alice@email.com”<br>
+=alice&lt;+email&gt;&amp;/&amp;/"alice@email.com"<br>
 </span>
 </p>
 
