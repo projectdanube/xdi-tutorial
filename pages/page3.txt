@@ -9,4 +9,4 @@ new contexts to
 nest more data under them.</p>
 
 <p><span class="xri">=alice</span> is the identifier associated with the arc, and at the same time
-it is also the "address" of the new context node in the graph.</p>
+it is also the <span class="term">"address"</span> of the new context node in the graph.</p>

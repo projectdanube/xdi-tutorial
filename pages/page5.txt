@@ -1,10 +1,12 @@
 <h1>Step 5: Context Nodes: Attributes</h1>
 
-<p>Now let's add the <span class="xri">&lt;+email&gt;</span> context node under <span class="xri">=alice</span>. The &lt; &gt; symbols are used
-to identify attributes. So while <span class="xri">+email</span> represents the general concept of
+<p>Now let's add an <span class="xri">&lt;+email&gt;</span> context node under <span class="xri">=alice</span>. The &lt; &gt; symbols are used
+to identify context nodes that function as <span class="term">attributes</span>.</p>
+
+<p>So while <span class="xri">+email</span> would represent the general concept of
 an e-mail address, <span class="xri">&lt;+email&gt;</span> represents an e-mail address as an attribute
 of the context it is in, in this case the entity <span class="xri">=alice</span>.</p>
 
-<p>The identifier associated with the contextual arc is <span class="xri">&lt;+email&gt;</span>.</p>
+<p>The identifier associated with the new contextual arc is <span class="xri">&lt;+email&gt;</span>.</p>
 
 <p>The address of the new context node in the graph is <span class="xri">=alice</span><span class="xri">&lt;+email&gt;</span>.</p>
