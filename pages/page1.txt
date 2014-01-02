@@ -5,4 +5,4 @@
 of properties that distinguishes it.</p>
 <p>XDI is a <span class="term">graph-based data model</span>. This means that all data is expressed using nodes and
 arcs in a graph. At a minimum, a graph consists of a single node, called the 
-<span class="term">"common root node"</span>.</p>
+<span class="term">common root node</span>.</p>
