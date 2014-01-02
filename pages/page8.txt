@@ -1,11 +1,11 @@
-The third type of arc is relational arcs. A relational arc
+<p>The third type of arc is relational arcs. A relational arc
 can be established between any two context nodes and describes
-a relationship between them.
+a relationship between them.</p>
 
-For example, a relational arc could be used to express that
+<p>For example, a relational arc could be used to express that
 =bob is a friend of =alice. In this case, +friend is the identifier
-associated with the relational arc.
+associated with the relational arc.</p>
 
-All arcs in XDI are directional. A second relational arc
+<p>All arcs in XDI are directional. A second relational arc
 could be created in the opposite direction, to express
-that =alice is also a friend of =bob.
+that =alice is also a friend of =bob.</p>

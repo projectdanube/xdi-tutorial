@@ -1,7 +1,7 @@
-Now let's add the <+email> context node under =alice. The < > symbols are used
+<p>Now let's add the &lt;+email&gt; context node under =alice. The &lt; &gt; symbols are used
 to identify attributes. So while +email represents the general concept of
-an e-mail address, <+email> represents an e-mail address as an attribute
-of the context it is in.
+an e-mail address, &lt;+email&gt; represents an e-mail address as an attribute
+of the context it is in.</p>
 
-The identifier associated with the contextual arc is <+email>.
-The address of the new context node in the graph is =alice<+email>.
+<p>The identifier associated with the contextual arc is &lt;+email&gt;.</p>
+<p>The address of the new context node in the graph is =alice&lt;+email&gt;.</p>

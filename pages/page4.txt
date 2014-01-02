@@ -1,7 +1,7 @@
-Let's add a few more context nodes to the graph.
-Let's add =bob (another individual).
-Let's add @acme (an organization).
-
-We now have a graph consisting of 4 context nodes and 3 arcs.
-Such arcs that establish new context nodes are called "contextual arcs".
-As we will see later, contextual arcs are one of three types of arcs in an XDI graph.
+<p>Let's add a few more context nodes to the graph.</p>
+<p>Let's add =bob (another individual).</p>
+<p>Let's add @acme (an organization).</p>
+<br>
+<p>We now have a graph consisting of 4 context nodes and 3 arcs.</p>
+<p>Such arcs that establish new context nodes are called "contextual arcs".</p>
+<p>As we will see later, contextual arcs are one of three types of arcs in an XDI graph.</p>

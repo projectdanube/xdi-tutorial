@@ -1,14 +1,14 @@
-An XDI graph can also be fully described as a set of statements.
+<p>An XDI graph can also be fully described as a set of statements.
 In doing so, a statement corresponds directly to an arc in the graph.
-Each statement consists of three parts: a subject, predicate and object.
+Each statement consists of three parts: a subject, predicate and object.</p>
 
-For a contextual statement, the subject is the address of a context
+<p>For a contextual statement, the subject is the address of a context
 node, the predicate is the empty string, and the object is the
-contextual arc to the child context node.
+contextual arc to the child context node.</p>
 
-For a literal statement, the subject is the address of a context node,
-the predicate is &, and the object is the literal data.
+<p>For a literal statement, the subject is the address of a context node,
+the predicate is &, and the object is the literal data.</p>
 
-For a relational statement, the subject is the address of a context
+<p>For a relational statement, the subject is the address of a context
 node, the predicate is the identifier associated with the relation,
-and the object is the address of the target context node.
+and the object is the address of the target context node.</p>
