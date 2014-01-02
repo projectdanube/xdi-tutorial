@@ -4,9 +4,8 @@
 is created under the common root node. The identifier <span class="xri">=alice</span>
 is associated with the arc that connects the two context nodes (see diagram).</p>
 
-<p>In XDI, these nodes are also called <span class="term">"context nodes"</span>, since they create
-new contexts to
-nest more data under them.</p>
+<p>In XDI, these nodes are also called <span class="term">context nodes</span>, since they create
+new contexts to nest more data under them.</p>
 
 <p><span class="xri">=alice</span> is the identifier associated with the arc, and at the same time
-it is also the <span class="term">"address"</span> of the new context node in the graph.</p>
+it is also the <span class="term">address</span> of the new context node in the graph.</p>
