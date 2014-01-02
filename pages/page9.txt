@@ -1,6 +1,6 @@
 <h1>Step 9: Statements</h1>
 
-<p>An XDI graph can also be fully described as a set of statements.
+<p>An XDI graph can be fully described as a set of statements.
 A statement corresponds directly to an arc in the graph, therefore in our
 graph we have <span class="term">seven</span> statements.
 Each statement consists of three parts: a subject, predicate and object.</p>
@@ -9,7 +9,7 @@ Each statement consists of three parts: a subject, predicate and object.</p>
 node, the predicate is the empty string, and the object is the
 contextual arc to the child context node:</p>
 
-<p>
+<p class="indent">
 <span class="xri">
 //=alice<br>
 //=bob<br>
@@ -22,7 +22,7 @@ contextual arc to the child context node:</p>
 <p>For a <span class="term">literal statement</span>, the subject is the address of a context node,
 the predicate is &, and the object is the literal data:</p>
 
-<p>
+<p class="indent">
 <span class="xri">
 =alice&lt;+email&gt;&amp;/&amp;/”alice@email.com”<br>
 </span>
@@ -32,7 +32,7 @@ the predicate is &, and the object is the literal data:</p>
 node, the predicate is the identifier associated with the relation,
 and the object is the address of the target context node:</p>
 
-<p>
+<p class="indent">
 <span class="xri">
 =alice/+friend/=bob<br>
 </span>

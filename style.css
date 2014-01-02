@@ -13,6 +13,10 @@ form {
 	margin: 0px;
 }
 
+p.indent {
+	padding-left: 20px;
+}
+
 span.term {
 	font-weight: bold;
 }
