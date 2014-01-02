@@ -4,13 +4,13 @@
 In doing so, a statement corresponds directly to an arc in the graph.
 Each statement consists of three parts: a subject, predicate and object.</p>
 
-<p>For a contextual statement, the subject is the address of a context
+<p>For a <span class="term">contextual statement</span>, the subject is the address of a context
 node, the predicate is the empty string, and the object is the
 contextual arc to the child context node.</p>
 
-<p>For a literal statement, the subject is the address of a context node,
+<p>For a <span class="term">literal statement</span>, the subject is the address of a context node,
 the predicate is &, and the object is the literal data.</p>
 
-<p>For a relational statement, the subject is the address of a context
+<p>For a <span class="term">relational statement</span>, the subject is the address of a context
 node, the predicate is the identifier associated with the relation,
 and the object is the address of the target context node.</p>

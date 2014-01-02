@@ -3,9 +3,10 @@
 <p>The first thing to learn about XDI is that to build a graph, it uses
 identifiers with important syntactical symbols. For example, the '=' symbol
 is used to identify individuals, therefore a reasonable identifier for
-an individual called "Alice" would be <span class="xri">=alice</span>.</p>
+an individual called <span class="term">"Alice"</span> would be
+<span class="xri">=alice</span>.</p>
 
 <p>The list on the right illustrates the most important symbols.</p>
 
-<p>This means that unlike in RDF and other data models, XDI identifiers are not "opaque",
-in other words, they have certain semantics "built-in".</p>
+<p>This means that unlike in RDF and other data models, XDI identifiers are not "opaque".
+Instead, they have certain semantics "built-in".</p>

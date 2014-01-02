@@ -3,12 +3,12 @@
 <p>So there are two fundamental types of nodes in an XDI graph:
 Context nodes and literal nodes. </p>
 
-<p>Context nodes can vary in their semantics and fulfill a number of
+<p><span class="term">Context nodes</span> can vary in their semantics and fulfill a number of
 different functions, but they all behave the same way: They
 establish the basic structure of the graph, and they always have
 an address.</p>
 
-<p>Literal nodes do not have an address in the graph, and they can exist
+<p><span class="term">Literal nodes</span> do not have an address in the graph, and they can exist
 only under a value context node, and they are always leaf nodes in the
 graph.</p>
 

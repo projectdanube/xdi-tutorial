@@ -13,6 +13,10 @@ form {
 	margin: 0px;
 }
 
+span.term {
+	font-weight: bold;
+}
+
 span.xri {
 	font-family: Courier New, monospace;
 	font-weight: bold;
