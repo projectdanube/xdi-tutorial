@@ -16,9 +16,9 @@ to fully describe the graph:</p>
 <p>
 //=alice<br>
 //=bob<br>
-<b>//@acme</b><br>
+<span class="xri">//@acme</span><br>
 =alice//&lt;+email&gt;<br>
 =alice&lt;+email&gt;//&<br>
-<b>=alice&lt;+email&gt;&amp;/&amp;/”alice@email.com”</b><br>
-<b>=alice/+friend/=bob</b><br>
+<span class="xri">=alice&lt;+email&gt;&amp;/&amp;/”alice@email.com”</span><br>
+<span class="xri">=alice/+friend/=bob</span><br>
 </p>

@@ -1,10 +1,10 @@
 <h1>Step 3: Context Nodes</h1>
 
-<p>To represent <b>=alice</b> in the XDI graph, a new node is created under the common root node.
-The identifier <b>=alice</b> is associated with the arc that connects the two context nodes (see diagram).</p>
+<p>To represent <span class="xri">=alice</span> in the XDI graph, a new node is created under the common root node.
+The identifier <span class="xri">=alice</span> is associated with the arc that connects the two context nodes (see diagram).</p>
 
 <p>In XDI, these nodes are also called "context nodes", since they create new contexts to
 nest more data under them.</p>
 
-<p><b>=alice</b> is the identifier associated with the arc, and at the same time it is also the "address"
+<p><span class="xri">=alice</span> is the identifier associated with the arc, and at the same time it is also the "address"
 of the new context node in the graph.</p>

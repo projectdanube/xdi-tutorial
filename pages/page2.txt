@@ -3,7 +3,7 @@
 <p>The first thing to learn about XDI is that to build a graph, it uses
 identifiers with important syntactical symbols. For example, the '=' symbol
 is used to identify individuals, therefore a reasonable identifier for
-an individual called "Alice" would be <b>=alice</b>.</p>
+an individual called "Alice" would be <span class="xri">=alice</span>.</p>
 
 <p>The list on the right illustrates the most important symbols.</p>
 
