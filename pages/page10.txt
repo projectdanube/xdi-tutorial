@@ -20,4 +20,7 @@ to fully describe the graph. The others are consiered to be implied and can ther
 </span>
 </p>
 
+<p>Note that the order in which the statements are listed is irrelevant, since there is no inherent
+order of arcs in the graph either.</p>
+
 <p>This format of a serialized graph is called the <span class="term">XDI DISPLAY</span> format.</p>
