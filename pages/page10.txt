@@ -11,7 +11,7 @@ other statements.</p>
 
 <p>In our example, even though the graph consists of 
 <span class="term">seven</span> statements, only <span class="term">three</span> are actually needed
-to fully describe the graph. The others are consiered to be implied and can therefore be omitted:</p>
+to fully describe the graph. The others are considered to be implied and can therefore be omitted:</p>
 
 <p class="indent">
 <span class="xri">//@acme
