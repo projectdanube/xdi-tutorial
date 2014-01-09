@@ -3,7 +3,7 @@
 <p>This concludes Tutorial 1.</p>
 <p>Where to go from here:</p>
 <ul>
-<li>Go back to the index and proceed to Tutorial 2</li>
+<li>Go back to the index and proceed to Tutorial 2.</li>
 <li>Try to build and run the "xdi2-example-core" Java application:</li>
 </ul>
 <a href="https://github.com/projectdanube/xdi2-example-core/">https://github.com/projectdanube/xdi2-example-core/</a>
