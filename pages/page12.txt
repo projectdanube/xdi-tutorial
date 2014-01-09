@@ -4,8 +4,8 @@
 <p>Where to go from here:</p>
 <ul><li>Try to build and run the <b>xdi2-example-core</b> Java application:</li></ul>
 <a href="https://github.com/projectdanube/xdi2-example-core/">https://github.com/projectdanube/xdi2-example-core/</a>
-<ul><li>Use the XDI Validator tool to validate serialized XDI graphs:</li></ul>
+<ul><li>Use the <b>XDI Validator</b> tool to validate serialized XDI graphs:</li></ul>
 <a href="https://xdi2.projectdanube.org/XDIValidator">https://xdi2.projectdanube.org/XDIValidator</a>
-<ul><li>Use the XDI Converter tool to convert between different serialization formats:</li></ul>
+<ul><li>Use the <b>XDI Converter</b> tool to convert between different serialization formats:</li></ul>
 <a href="https://xdi2.projectdanube.org/XDIConverter">https://xdi2.projectdanube.org/XDIConverter</a>
 <ul><li>Go back to the index and proceed to Tutorial 2.</li></ul>
