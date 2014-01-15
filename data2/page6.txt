@@ -1,5 +1,13 @@
-<h1>Done!</h1>
+<h1>Step 5: Instances</h1>
 
-<p>This concludes Tutorial 2.</p>
-<p>Where to go from here:</p>
-<ul><li>Go back to the index and proceed to Tutorial 3.</li></ul>
+<p>This diagram shows an <span class="term">attribute collection</span> with
+ordered <span class="term">attribute instances</span>.</p>
+
+<p>The addresses of the three attribute instances in the graph are:</p>
+
+<p class="indent">
+<span class="xri">=alice[<+email>]<#0>
+=alice[<+email>]<#1>
+=alice[<+email>]<#2>
+</span>
+</p>
