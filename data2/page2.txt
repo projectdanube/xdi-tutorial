@@ -4,7 +4,7 @@
 are containers for <span class="term">instances</span> of entities or
 attributes. Entities and attributes that are not instances
 of a collection (such as the ones we saw in Tutorial 1) are
-also called <span class="term">singletons</span>.</p>
+called <span class="term">singletons</span>.</p>
 
 <p>As is the case with all fundamental constructs in XDI, 
 collections and instances also have dedicated syntactical
