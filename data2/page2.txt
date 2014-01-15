@@ -11,7 +11,9 @@ collections and instances also have dedicated syntactical
 symbols.</p>
 
 <p>The <span class="xri">[ ]</span> symbols are used to identify context nodes that function as
-<span class="term">collections</span>. If the <span class="xri">[ ]</span>
+<span class="term">collections</span>.</p>
+
+<p>If the <span class="xri">[ ]</span>
 and the <span class="xri">&lt; &gt;</span> symbols are combined,
 we have an <span class="term">attribute collection</span>, otherwise we
 have an <span class="term">entity collection</span>.</p>
