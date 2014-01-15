@@ -5,14 +5,14 @@ unordered <span class="term">attribute instances</span>.</p>
 
 <p>Entity collections and attribute collections work in very
 similar ways. The only difference is that in case of the latter, the
-<span class="xri">&lt; &gt;</span> symbols are used for
+<span class="xri">&lt; &gt;</span> symbols are added for
 both the collection itself, and for its instances.</p>
 
 <p>The addresses of the three attribute instances in the graph are:</p>
 
 <p class="indent">
-<span class="xri">=alice[<+email>]<!:uuid:4928>
-=alice[<+email>]<!:uuid:2093>
-=alice[<+email>]<!:uuid:8829>
+<span class="xri">=alice[&lt;+email&gt;]&lt;!:uuid:4928&gt;
+=alice[&lt;+email&gt;]&lt;!:uuid:2093&gt;
+=alice[&lt;+email&gt;]&lt;!:uuid:8829&gt;
 </span>
 </p>
