@@ -13,9 +13,11 @@
 
 	<script type="text/javascript">
 
-		var path = 'data' + document.location.search.substr(1) + '/';
+		var args = document.location.search.substr(1).split('|');
+
+		var path = 'data' + args[0] + '/';
 		var page = 1;
-		var max = 12;
+		var max = args[1];
 
 		function load() {
 
