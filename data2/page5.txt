@@ -1,7 +1,7 @@
 <h1>Step 5: Instances</h1>
 
-<p>This diagram shows an attribute collection with
-unordered attribute instances.</p>
+<p>This diagram shows an <span class="term">attribute collection</span> with
+unordered <span class="term">attribute instances</span>.</p>
 
 <p>Entity collections and attribute collections work in very
 similar ways. The only difference is that in case of the latter, the
