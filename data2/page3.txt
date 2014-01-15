@@ -1,0 +1,21 @@
+<h1>Step 3: Instances</h1>
+
+<p>Collections contain <span class="term">instances</span>.
+In this diagram, we have an entity collection containing three
+entity instances. Each one of them can contain entities and
+attributes that describe the given instance.</p>
+
+<p>XDI distinguishes between <span class="term">unordered instances</span>
+and <span class="term">ordered</span>
+instances. In this diagram, the instances are unordered and
+identified by UUIDs (which are shortened here for display
+purposes.</p>
+
+<p>The addresses of the three entity instances in the graph are:</p>
+
+<p class="indent">
+<span class="xri">=alice[+event]!:uuid:7328
+=alice[+event]!:uuid:4439
+=alice[+event]!:uuid:8294
+</span>
+</p>

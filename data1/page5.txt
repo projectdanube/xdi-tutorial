@@ -1,6 +1,7 @@
 <h1>Step 5: Context Nodes: Attributes</h1>
 
-<p>Now let's add an <span class="xri">&lt;+email&gt;</span> context node under <span class="xri">=alice</span>. The &lt; &gt; symbols are used
+<p>Now let's add an <span class="xri">&lt;+email&gt;</span> context node under <span class="xri">=alice</span>.
+The <span class="xri">&lt; &gt;</span> symbols are used
 to identify context nodes that function as <span class="term">attributes</span>.</p>
 
 <p>So while <span class="xri">+email</span> would represent the general concept of

@@ -13,14 +13,18 @@
 
 	<script type="text/javascript">
 
+		var path = 'data' + document.location.search.substr(1) + '/';
 		var page = 1;
 		var max = 12;
 
 		function load() {
 
 			$('#page').text('' + page + ' / ' + max);
-			$('#img').attr('src', 'pages/page' + page + '.jpg');
-			$.ajax({url:'pages/page' + page + '.txt', success: function(result) {
+			$.ajax({url:path + 'title', success: function(result) {
+				$('#appname').html(result);
+			}});
+			$('#img').attr('src', path + '/page' + page + '.jpg');
+			$.ajax({url:path + 'page' + page + '.txt', success: function(result) {
 				$('#txt').html(result);
 			}});
 		}
@@ -68,7 +72,7 @@
 		<td>
 		<img id="applogo" src="images/logo.png">
 		</td><td>
-		<span id="appname">XDI Tutorial: XDI Graph Model Part 1</span>
+		<span id="appname"></span>
 		</td>
 		</tr>
 		</table>

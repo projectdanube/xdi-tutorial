@@ -1,0 +1,18 @@
+<h1>Step 5: Instances</h1>
+
+<p>This diagram shows an attribute collection with
+unordered attribute instances.</p>
+
+<p>Entity collections and attribute collections work in very
+similar ways. The only difference is that in case of the latter, the
+<span class="xri">&lt; &gt;</span></p> symbols are used for
+both the collection itself, and for its instances.</p>
+
+<p>The addresses of the three attribute instances in the graph are:</p>
+
+<p class="indent">
+<span class="xri">=alice[<+email>]<!:uuid:4928>
+=alice[<+email>]<!:uuid:2093>
+=alice[<+email>]<!:uuid:8829>
+</span>
+</p>

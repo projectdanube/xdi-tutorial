@@ -1,0 +1,11 @@
+<h1>Step 1: Advanced Graph Model</h1>
+
+<p>In Tutorial 1, we covered the basics of the XDI Graph Model.
+We saw that there are <span class="term">two types of nodes</span> (context nodes and literal nodes),
+and <span class="term">three types of arcs</span> (contextual arcs, literal arcs, and relational arcs).</p>
+
+<p>We also saw that context nodes can fulfill different functions, such as
+entities, attributes, and values.</p>
+
+<p>In this Tutorial 2, we will cover further functions context nodes can
+assume.</p>
