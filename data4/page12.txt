@@ -1,0 +1,33 @@
+<h1>Step 12: $del on a Target Statement</h1>
+
+<p>When a <span class="xri">$del</span> operation is applied to a 
+<span class="term">target statement</span>, that statement
+is deleted from the target graph. All nodes and arcs that are dependent
+on this statement are also deleted automatically.</p>
+
+<p>If the target statement does not exist in the target graph, that is
+not considered an error.</p>
+
+<p>Target graph before the message:</p>
+
+<p class="indent">
+<span class="xri">//@acme
+=alice/+friend/=bob
+</span>
+</p>
+
+<p>Message:</p>
+
+<p class="indent">
+<span class="xri">=bob[$msg]!:uuid:4378$do/$del/(=alice/+friend/=bob)
+</span>
+</p>
+
+<p>Target graph after the operation:</p>
+
+<p class="indent">
+<span class="xri">//@acme
+//=alice
+//=bob
+</span>
+</p>

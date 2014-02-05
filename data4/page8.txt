@@ -1,0 +1,23 @@
+<h1>Step 8: Operations</h1>
+
+<p>So far we have looked at the "metadata" of a message: recipient,
+link contract, and authentication materials.</p>
+
+<p>The "heart" of a message however is the set of <span class="term">operations</span>
+to be executed against the target graph. The following operations exist:</p>
+
+<ul>
+<li><span class="xri">$set</span>: Adds data to the target graph.</li>
+<li><span class="xri">$del</span>: Deletes data from the target graph.</li>
+<li><span class="xri">$get</span>: Requests data from the target graph.</li>
+</ul>
+
+<p>Operations are modeled as relational arcs on a <span class="xri">$do</span> entity
+singleton under the entity that represents the message.</p>
+
+<p>In general, these operations can be applied either to a 
+<span class="term">target address</span> or a
+<span class="term">target statement</span> or a combination of both.</p>
+
+<p>And just like a message envelope can contain multiple messages, a message can
+contain multiple operations.</p>

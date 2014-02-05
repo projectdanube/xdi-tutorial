@@ -1,0 +1,34 @@
+<h1>Step 10: $set on a Target Statement</h1>
+
+<p>When a <span class="xri">$set</span> operation is applied to a 
+<span class="term">target statement</span>, that statement
+is created in the target graph. All nodes and arcs that are necessary
+to establish the new statement are created automatically.</p>
+
+<p>If the target statement exists already in the target graph, that is
+not considered an error.</p>
+
+<p>Target graph before the message:</p>
+
+<p class="indent">
+<span class="xri">//@acme
+=alice&lt;+email&gt;//&amp;
+</span>
+</p>
+
+<p>Message:</p>
+
+<p class="indent">
+<span class="xri">=bob[$msg]!:uuid:4378$do/$set/(=alice&lt;+email&gt;&amp;/&amp;/"alice@email.com")
+=bob[$msg]!:uuid:4378$do/$set/(=alice/+friend/=bob)
+</span>
+</p>
+
+<p>Target graph after the operation:</p>
+
+<p class="indent">
+<span class="xri">//@acme
+=alice&lt;+email&gt;&amp;/&amp;/"alice@email.com"
+=alice/+friend/=bob
+</span>
+</p>

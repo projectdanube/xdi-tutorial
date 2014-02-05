@@ -1,0 +1,33 @@
+<h1>Step 11: $del on a Target Address</h1>
+
+<p>When a <span class="xri">$del</span> operation is applied to a 
+<span class="term">target address</span>, that address
+is deleted from the target graph. All nodes and arcs that are dependent
+on this address are also deleted automatically.</p>
+
+<p>If the target address does not exist in the target graph, that is
+not considered an error.</p>
+
+<p>Target graph before the message:</p>
+
+<p class="indent">
+<span class="xri">//@acme
+=alice&lt;+email&gt;&amp;/&amp;/"alice@email.com"
+=alice/+friend/=bob
+</span>
+</p>
+
+<p>Message:</p>
+
+<p class="indent">
+<span class="xri">=bob[$msg]!:uuid:4378$do/$del/=alice&lt;+email
+</span>
+</p>
+
+<p>Target graph after the operation:</p>
+
+<p class="indent">
+<span class="xri">//@acme
+=alice/+friend/=bob
+</span>
+</p>

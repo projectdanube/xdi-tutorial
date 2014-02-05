@@ -1,0 +1,12 @@
+<h1>Step 7: Authentication Materials</h1>
+
+<p>Depending on the link contract that is being used, the sender of a
+message may have to provide additional data for
+<span class="term">authentication</span> purposes.</p>
+
+<p>This is most commonly a <span class="term">secret token</span> (password):</p>
+
+<p><span class="xri">=bob[$msg]!:uuid:4378&lt;$secret&gt;&lt;$token&gt;&/&/"s3cr3t"</span></p>
+
+<p>Authentication materials may also be other kinds of tokens,
+or a cryptographic <span class="term">signature</span>.</p>
