@@ -1,7 +1,9 @@
 <h1>Done!</h1>
 
 <p>This concludes Tutorial 1.</p>
+
 <p>Where to go from here:</p>
+
 <ul><li>Use the <b>XDI Validator</b> tool to validate serialized XDI graphs:</li></ul>
 <a href="http://xdi2.projectdanube.org/XDIValidator">https://xdi2.projectdanube.org/XDIValidator</a>
 <ul><li>Use the <b>XDI Converter</b> tool to convert between different serialization formats:</li></ul>
