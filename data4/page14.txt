@@ -26,7 +26,6 @@ will be empty.</p>
 <p>Message result:</p>
 
 <p class="indent">
-<span class="xri">=alice&lt;+email&gt;&amp;/&amp;/"alice@email.com"
-=alice/+friend/=bob
+<span class="xri">=alice/+friend/=bob
 </span>
 </p>
