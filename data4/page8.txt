@@ -9,7 +9,7 @@ to be executed against the target graph. The following operations exist:</p>
 <ul>
 <li><span class="xri">$set</span>: Adds data to the target graph.</li>
 <li><span class="xri">$del</span>: Deletes data from the target graph.</li>
-<li><span class="xri">$get</span>: Requests data from the target graph.</li>
+<li><span class="xri">$get</span>: Retrieves data from the target graph.</li>
 </ul>
 
 <p>Operations are modeled as relational arcs on a <span class="xri">$do</span> entity

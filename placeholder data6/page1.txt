@@ -1,0 +1,10 @@
+<h1>Step 1: Placeholder</h1>
+
+<p>This will cover:</p>
+
+<ul>
+<li>use of cloud numbers instead of names</li>
+<li>processing of $ref/$rep</li>
+<li>message parameters $deref etc<li>
+<li>special permissions needed for $ref and $do arcs (or should this be in the link contract tutorial?)</li>
+</ul>

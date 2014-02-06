@@ -24,7 +24,7 @@ not considered an error.</p>
 </span>
 </p>
 
-<p>Target graph after the operation:</p>
+<p>Target graph after the message:</p>
 
 <p class="indent">
 <span class="xri">//@acme

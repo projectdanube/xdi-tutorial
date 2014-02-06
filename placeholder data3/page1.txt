@@ -1,0 +1,8 @@
+<h1>Step 1: Placeholder</h1>
+
+<p>This will cover:</p>
+
+<ul>
+<li>$ref/$rep arcs</li>
+<li>peer/inner roots<li>
+</ul>
