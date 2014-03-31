@@ -2,7 +2,7 @@
 
 <p>The <span class="xri">!</span> symbol is used for <span class="term">unordered instances</span>.</p>
 
-<p>The <span class="xri">#</span> symbol is used for <span class="term">ordered instances</span>.</p>
+<p>The <span class="xri">@</span> symbol is used for <span class="term">ordered instances</span>.</p>
 
 <p>In this diagram, the instances are ordered and
 identified by sequential numbers.</p>
@@ -10,8 +10,8 @@ identified by sequential numbers.</p>
 <p>The addresses of the three entity instances in the graph are:</p>
 
 <p class="indent">
-<span class="xri">=alice[#event]#0
-=alice[#event]#1
-=alice[#event]#2
+<span class="xri">=alice[#event]@0
+=alice[#event]@1
+=alice[#event]@2
 </span>
 </p>
