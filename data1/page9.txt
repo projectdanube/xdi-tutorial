@@ -12,9 +12,9 @@ contextual arc to the child context node:</p>
 <p class="indent">
 <span class="xri">//=alice
 //=bob
-//@acme
-=alice//&lt;+email&gt;
-=alice&lt;+email&gt;//&
+//+acme
+=alice//&lt;#email&gt;
+=alice&lt;#email&gt;//&
 </span>
 </p>
 
@@ -22,7 +22,7 @@ contextual arc to the child context node:</p>
 the predicate is <span class="xri">&</span>, and the object is the literal data:</p>
 
 <p class="indent">
-<span class="xri">=alice&lt;+email&gt;&amp;/&amp;/"alice@email.com"
+<span class="xri">=alice&lt;#email&gt;&amp;/&amp;/"alice@email.com"
 </span>
 </p>
 
@@ -31,6 +31,6 @@ node, the predicate is the identifier associated with the relation,
 and the object is the address of the target context node:</p>
 
 <p class="indent">
-<span class="xri">=alice/+friend/=bob
+<span class="xri">=alice/#friend/=bob
 </span>
 </p>

@@ -6,8 +6,8 @@ ordered <span class="term">attribute instances</span>.</p>
 <p>The addresses of the three attribute instances in the graph are:</p>
 
 <p class="indent">
-<span class="xri">=alice[&lt;+email&gt;]&lt;#0&gt;
-=alice[&lt;+email&gt;]&lt;#1&gt;
-=alice[&lt;+email&gt;]&lt;#2&gt;
+<span class="xri">=alice[&lt;#email&gt;]&lt;#0&gt;
+=alice[&lt;#email&gt;]&lt;#1&gt;
+=alice[&lt;#email&gt;]&lt;#2&gt;
 </span>
 </p>

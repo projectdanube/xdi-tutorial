@@ -11,8 +11,8 @@ both the collection itself, and for its instances.</p>
 <p>The addresses of the three attribute instances in the graph are:</p>
 
 <p class="indent">
-<span class="xri">=alice[&lt;+email&gt;]&lt;!:uuid:4928&gt;
-=alice[&lt;+email&gt;]&lt;!:uuid:2093&gt;
-=alice[&lt;+email&gt;]&lt;!:uuid:8829&gt;
+<span class="xri">=alice[&lt;#email&gt;]&lt;!:uuid:4928&gt;
+=alice[&lt;#email&gt;]&lt;!:uuid:2093&gt;
+=alice[&lt;#email&gt;]&lt;!:uuid:8829&gt;
 </span>
 </p>

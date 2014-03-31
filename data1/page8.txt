@@ -6,7 +6,7 @@ a relationship between them.</p>
 
 <p>For example, a relational arc could be used to express that
 <span class="xri">=bob</span> is a friend of <span class="xri">=alice</span>. In this case,
-<span class="xri">+friend</span> is the identifier associated with the relational arc.</p>
+<span class="xri">#friend</span> is the identifier associated with the relational arc.</p>
 
 <p>All arcs in XDI are directional. A second relational arc
 could be created in the opposite direction, to express

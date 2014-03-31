@@ -10,9 +10,9 @@ will be empty.</p>
 <p>Target graph before the message:</p>
 
 <p class="indent">
-<span class="xri">//@acme
-=alice&lt;+email&gt;&amp;/&amp;/"alice@email.com"
-=alice/+friend/=bob
+<span class="xri">//+acme
+=alice&lt;#email&gt;&amp;/&amp;/"alice@email.com"
+=alice/#friend/=bob
 </span>
 </p>
 
@@ -26,7 +26,7 @@ will be empty.</p>
 <p>Message result:</p>
 
 <p class="indent">
-<span class="xri">=alice&lt;+email&gt;&amp;/&amp;/"alice@email.com"
-=alice/+friend/=bob
+<span class="xri">=alice&lt;#email&gt;&amp;/&amp;/"alice@email.com"
+=alice/#friend/=bob
 </span>
 </p>

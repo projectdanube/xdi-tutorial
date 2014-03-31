@@ -4,10 +4,10 @@
 
 <p>Let's add <span class="xri">=bob</span> (another individual).</p>
 
-<p>Let's add <span class="xri">@acme</span> (an organization).</p>
+<p>Let's add <span class="xri">+acme</span> (an organization).</p>
 
 <p>We now have a graph consisting of 4 context nodes and 3 contextual arcs.</p>
 
 <p>Depending on the identifiers, context nodes can fulfill different functions in an XDI graph.
-In this case, <span class="xri">=alice</span>, <span class="xri">=bob</span> and <span class="xri">@acme</span> are all considered 
+In this case, <span class="xri">=alice</span>, <span class="xri">=bob</span> and <span class="xri">+acme</span> are all considered 
 <span class="term">entities</span>.</p>

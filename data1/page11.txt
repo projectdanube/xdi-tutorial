@@ -5,12 +5,12 @@
 <p class="indent">
 <span class="xri">{
     "/": [
-        "@acme"
+        "+acme"
     ],
-    "=alice/+friend": [
+    "=alice/#friend": [
         "=bob"
     ],
-    "=alice&lt;+email&gt;&amp;/&amp;": "alice@email.com"
+    "=alice&lt;#email&gt;&amp;/&amp;": "alice@email.com"
 }
 </span>
 </p>

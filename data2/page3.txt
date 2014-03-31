@@ -14,8 +14,8 @@ purposes).</p>
 <p>The addresses of the three entity instances in the graph are:</p>
 
 <p class="indent">
-<span class="xri">=alice[+event]!:uuid:7328
-=alice[+event]!:uuid:4439
-=alice[+event]!:uuid:8294
+<span class="xri">=alice[#event]!:uuid:7328
+=alice[#event]!:uuid:4439
+=alice[#event]!:uuid:8294
 </span>
 </p>
