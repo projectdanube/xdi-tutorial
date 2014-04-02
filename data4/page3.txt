@@ -5,7 +5,7 @@ an XDI graph. To be precise, we actually call this graph a
 <span class="term">message envelope</span>, which can contain 
 one or more <span class="term">messages</span>.</p>
 
-<p>Messages are modeled as <span class="term">entity instances</span>
+<p>Messages are modeled as <span class="term">entity members</span>
 within an <span class="term">entity collection</span> identified by
 <span class="xri">[$msg]</span>.</p>
 

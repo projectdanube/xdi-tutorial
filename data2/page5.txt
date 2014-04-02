@@ -1,14 +1,14 @@
-<h1>Step 5: Instances</h1>
+<h1>Step 5: Members</h1>
 
 <p>This diagram shows an <span class="term">attribute collection</span> with
-unordered <span class="term">attribute instances</span>.</p>
+unordered <span class="term">attribute members</span>.</p>
 
 <p>Entity collections and attribute collections work in very
 similar ways. The only difference is that in case of the latter, the
 <span class="xri">&lt; &gt;</span> symbols are added for
-both the collection itself, and for its instances.</p>
+both the collection itself, and for its members.</p>
 
-<p>The addresses of the three attribute instances in the graph are:</p>
+<p>The addresses of the three attribute members in the graph are:</p>
 
 <p class="indent">
 <span class="xri">=alice[&lt;#email&gt;]&lt;!:uuid:4928&gt;

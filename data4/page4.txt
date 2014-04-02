@@ -1,7 +1,7 @@
 <h1>Step 4: The Structure of an XDI Message</h1>
 
-<p>Ordered entity instances can be used as well, instead of
-unordered entity instances:</p>
+<p>Ordered entity members can be used as well, instead of
+unordered entity members:</p>
 
 <ul>
 <li><span class="xri">=bob[$msg]@0</span></li>

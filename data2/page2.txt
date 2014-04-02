@@ -1,13 +1,13 @@
 <h1>Step 2: Collections</h1>
 
 <p>Context nodes can also function as <span class="term">collections</span>, which
-are containers for <span class="term">instances</span> of entities or
-attributes. Entities and attributes that are not instances
+are containers for <span class="term">members</span> of entities or
+attributes. Entities and attributes that are not members
 of a collection (such as the ones we saw in Tutorial 1) are
 called <span class="term">singletons</span>.</p>
 
 <p>As is the case with all fundamental constructs in XDI, 
-collections and instances also have dedicated syntactical
+collections and members also have dedicated syntactical
 symbols.</p>
 
 <p>The <span class="xri">[ ]</span> symbols are used to identify context nodes that function as

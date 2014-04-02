@@ -1,13 +1,13 @@
-<h1>Step 4: Instances</h1>
+<h1>Step 4: Members</h1>
 
-<p>The <span class="xri">!</span> symbol is used for <span class="term">unordered instances</span>.</p>
+<p>The <span class="xri">!</span> symbol is used for <span class="term">unordered members</span>.</p>
 
-<p>The <span class="xri">@</span> symbol is used for <span class="term">ordered instances</span>.</p>
+<p>The <span class="xri">@</span> symbol is used for <span class="term">ordered members</span>.</p>
 
-<p>In this diagram, the instances are ordered and
+<p>In this diagram, the members are ordered and
 identified by sequential numbers.</p>
 
-<p>The addresses of the three entity instances in the graph are:</p>
+<p>The addresses of the three entity members in the graph are:</p>
 
 <p class="indent">
 <span class="xri">=alice[#event]@0
