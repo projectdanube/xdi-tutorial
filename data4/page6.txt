@@ -7,6 +7,6 @@ going to perform.</p>
 <p>This is modeled as a <span class="xri">$do</span> relational
 arc on the message:</p>
 
-<p><span class="xri">=bob[$msg]!:uuid:4378/$do/=alice$to=bob$from$do</span></p>
+<p><span class="xri">=bob[$msg]!:uuid:4378/$do/(=alice/=bob)$do</span></p>
 
 <p>The details of link contracts will be covered in a future tutorial.</p>

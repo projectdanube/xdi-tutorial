@@ -19,8 +19,8 @@ not considered an error.</p>
 <p>Message:</p>
 
 <p class="indent">
-<span class="xri">=bob[$msg]!:uuid:4378$do/$set/(=alice&lt;#email&gt;&amp;/&amp;/"alice@email.com")
-=bob[$msg]!:uuid:4378$do/$set/(=alice/#friend/=bob)
+<span class="xri">(=bob[$msg]!:uuid:4378$do/$set)=alice&lt;#email&gt;&amp;/&amp;/"alice@email.com"
+(=bob[$msg]!:uuid:4378$do/$set)=alice/#friend/=bob
 </span>
 </p>
 
