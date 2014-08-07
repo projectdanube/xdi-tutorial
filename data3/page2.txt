@@ -1,0 +1,7 @@
+<h1>Step 2: Peer roots</h1>
+
+<p>Peer roots .</p>
+
+<p>In the beginning, we saw that every graph starts with a common root node.
+In this Tutorial 3, we will explain two other types of root nodes: Peer roots
+and inner roots.</p>

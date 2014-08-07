@@ -7,5 +7,5 @@ and <span class="term">three types of arcs</span> (contextual arcs, literal arcs
 <p>We also saw that context nodes can fulfill different functions, such as
 entities, attributes, and values.</p>
 
-<p>In this Tutorial 2, we will cover further functions context nodes can
+<p>In this Tutorial 2, we will cover two further functions context nodes can
 assume.</p>

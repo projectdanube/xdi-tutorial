@@ -1,0 +1,9 @@
+<h1>Step 1: Peer roots and inner roots</h1>
+
+<p>Tutorials 1 and 2 covered the basics of the XDI Graph Model, including
+the types of node and arcs, and some of the functions of context nodes, such
+as entities, attributes, values, collections, and members.</p>
+
+<p>In the beginning, we saw that every graph starts with a common root node.
+In this Tutorial 3, we will explain two other types of root nodes: Peer roots
+and inner roots.</p>
