@@ -1,4 +1,4 @@
-xdi-tutorial
+xdi-b-torial
 ============
 
-XDI Tutorial
+XDI Tutorial based on the b-torial engine

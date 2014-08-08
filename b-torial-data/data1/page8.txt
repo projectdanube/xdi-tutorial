@@ -1,0 +1,13 @@
+<h1>Step 8: Relations</h1>
+
+<p>The third type of arc is <span class="term">relational arcs</span>. A relational arc
+can be established between any two context nodes and describes
+a relationship between them.</p>
+
+<p>For example, a relational arc could be used to express that
+<span class="code">=bob</span> is a friend of <span class="code">=alice</span>. In this case,
+<span class="code">#friend</span> is the identifier associated with the relational arc.</p>
+
+<p>All arcs in XDI are directional. A second relational arc
+could be created in the opposite direction, to express
+that <span class="code">=alice</span> is also a friend of <span class="code">=bob</span>.</p>

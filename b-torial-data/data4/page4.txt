@@ -1,0 +1,16 @@
+<h1>Step 4: The Structure of an XDI Message</h1>
+
+<p>Ordered entity members can be used as well, instead of
+unordered entity members:</p>
+
+<ul>
+<li><span class="code">=bob[$msg]@0</span></li>
+<li><span class="code">=bob[$msg]@1</span></li>
+<li><span class="code">=bob[$msg]@2</span></li>
+</ul>
+
+<p>This should be done if the messages have to be executed
+in a particular order by the XDI server.</p>
+
+<p>So far, the messages are empty, i.e. they would not do anything
+if executed against a target graph.</p>

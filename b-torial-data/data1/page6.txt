@@ -1,0 +1,12 @@
+<h1>Step 6: Context Nodes: Values</h1>
+
+<p>Now let's set a <span class="term">value</span> for the
+<span class="code">=alice</span><span class="code">&lt;#email&gt;</span> attribute. To do so, we
+first create a value context node under the attribute context node.
+The identifier for a contextual arc to a value context node is always <span class="code">&amp;</span>.
+Therefore the address of the value context node in the graph is <span class="code">=alice</span><span class="code">&lt;#email&gt;</span>&.</p>
+
+<p>Under the value context node, we can now add a literal arc that establishes
+a literal node. The identifier for a literal arc is also always <span class="code">&amp;</span>.
+Literal nodes hold the actual data in an XDI graph,
+for example <span class="code">"alice@email.com"</span>. All JSON data types are supported.</p>

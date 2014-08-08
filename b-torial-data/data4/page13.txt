@@ -1,0 +1,32 @@
+<h1>Step 13: $get on a Target Address</h1>
+
+<p>When a <span class="code">$get</span> operation is applied to a 
+<span class="term">target address</span>, the entire subgraph at that
+address (i.e. all statements in it) is returned as the message result.</p>
+
+<p>If the target address does not exist in the target graph, the message result
+will be empty.</p>
+
+<p>Target graph before the message:</p>
+
+<p class="indent">
+<span class="code">//+acme
+=alice&lt;#email&gt;&amp;/&amp;/"alice@email.com"
+=alice/#friend/=bob
+</span>
+</p>
+
+<p>Message:</p>
+
+<p class="indent">
+<span class="code">=bob[$msg]!:uuid:4378$do/$get/=alice
+</span>
+</p>
+
+<p>Message result:</p>
+
+<p class="indent">
+<span class="code">=alice&lt;#email&gt;&amp;/&amp;/"alice@email.com"
+=alice/#friend/=bob
+</span>
+</p>
