@@ -1,7 +1,7 @@
 xdi-tutorial
 ============
 
-xdi-tutorial based on the b-torial engine
+xdi-tutorial content based on the b-torial engine
 
 See here: https://github.com/peacekeeper/b-torial
 
