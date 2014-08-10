@@ -3,7 +3,8 @@
 <p>An XDI graph can be fully described as a set of statements.
 A statement corresponds directly to an arc in the graph, therefore in our
 graph we have <span class="term">seven</span> statements.
-Each statement consists of three parts: a subject, predicate and object.</p>
+Each statement consists of three parts separated by / characters:
+a subject, predicate and object.</p>
 
 <p>For a <span class="term">contextual statement</span>, the subject is the address of a context
 node, the predicate is the empty string, and the object is the
