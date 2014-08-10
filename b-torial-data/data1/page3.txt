@@ -11,3 +11,5 @@ As we will see later, contextual arcs are one of three types of arcs.</p>
 
 <p><span class="code">=alice</span> is the identifier associated with the contextual arc, and at the same time
 it is also the address of the context node in the graph.</p>
+
+<p>The address of the common root node in the graph is defined to be the empty string.</p>
