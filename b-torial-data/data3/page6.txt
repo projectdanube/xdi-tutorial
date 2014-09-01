@@ -1,0 +1,27 @@
+<h1>Step 5: Global vs Local</h1>
+
+<p>Local Identify on a graph</p>
+
+<p>The XDI graph from the previous example depicted multiple peer root nodes but 
+we do not know which particular XDI authority's graph this graph actually represents. 
+
+We also talked about XDI references in an earlier example of this chapter. 
+
+The XDI graph contained many peer root nodes including the owner of this graph. 
+
+Assuming that this graph represents that of =alice's, we will need to assert that the common root 
+is equivalent to the peer root node of =alice, i.,e (=alice). 
+
+We do this by adding a $ref relationship arc betwen the common root node and the peer roote node of =alice.
+
+The XDI reference statement to assert the peer root address of its own common root node on =alice's would be below. 
+([=]!:uuid:1111)/$ref/
+
+The inverse of this relationship is asserted by using the $is$ref relationship arc.
+/$is$ref/([=]!:uuid:1111)
+
+Please note that the common root node is always denoted by an empty string as shown in the above two XDI statements. 
+
+Thus by establishing that ([=]!:uuid:1111) is the local peer root node, the other two peer root nodes of (+bob) and (*alice.car) would be remote.
+
+Please note that a cloud number is used for this assertion of the local peer root node. For simplicity, cloud names are retained for the remote peer root nodes.</p>

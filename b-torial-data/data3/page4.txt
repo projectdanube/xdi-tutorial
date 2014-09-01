@@ -1,0 +1,7 @@
+<h1>Step 3: XDI References</h1>
+
+<p>$ref, $is$ref</p>
+
+<p>Whenever an XDI graph contains two context nodes that represent the same entity, the equivalance of these two nodes is asserted by a $ref relationship.
+In the example graph here the context node with a cloud name and another context name with a cloud number represent the same xdi authority.
+The $ref relationship establishes that fact and the inverse is represented by a $is$ref relationship</p>
