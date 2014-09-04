@@ -1,6 +1,7 @@
-<h1>Step 1: Cloud Name.</h1>
+<h1>Step 2: Cloud Name.</h1>
 
 <p>Cloud Name.</p>
 
-<p>An xdi authority (person, organization or thing) registers with a cloud service provider using a cloud name.</p>
+<p>An <span class="term">XDI authority</span> (a person, an organization or a thing) registers with a <span class="term">cloud service provider (CSP)</span> 
+using a <span class="term">cloud name</span>.</p>
 
