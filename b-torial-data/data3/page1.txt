@@ -4,5 +4,5 @@
 the types of node and arcs, and some of the functions of context nodes, such
 as entities, attributes, values, collections, and members. </p>
 
-<p>In this Tutorial 3, we will explain the <span class="term">cloud number</span>,<span class="term">the cloud name</span>, <span class="term">XDI References</span>, 
+<p>In this Tutorial 3, we will explain the <span class="term">cloud number</span>, <span class="term">the cloud name</span>, <span class="term">XDI references</span>, 
 the other two types of roots ( <span class="term">peer</span>, <span class="term">inner</span> ) and establishing the <span class="term">owner on a graph</span>.</p>
