@@ -1,10 +1,10 @@
-<h1>Step 7: Inner Roots.</h1>
+<h1>Step 7: Inner Roots</h1>
 
-<p>Inner Roots.</p>
+<p>Inner Roots</p>
 
 <p>An <span class="term">inner root note</span> node represents an inner graph, i.e., a graph-within-a-graph. 
 
-An eample of an inner root node would be <span class="term">(=alice/#owns)</span>.</p>
+An example of an inner root node would be <span class="term">(=alice/#owns)</span>.</p>
 
-<p>The XDI address of an inner root node will contain two XDI address segments, an XDI subject <span class="term">(=alice)</span> followed by 
+<p>The XDI address of an inner root node will contain two XDI addresses, an XDI subject <span class="term">(=alice)</span> followed by 
 XDI relational predicate <span class="term">(#owns)</span>.The XDI statements contained in an inner graph are relative only to that particular inner root node.</p>

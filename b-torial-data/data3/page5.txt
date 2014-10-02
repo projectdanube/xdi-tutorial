@@ -1,6 +1,6 @@
-<h1>Step 5: Distributed nature of the graphs.</h1>
+<h1>Step 5: Distributed nature of the graphs</h1>
 
-<p>Peer roots.</p>
+<p>Peer roots</p>
 
 <p>An XDI graph may describe relationships that exist between multiple XDI authorities. In the XDI graph from Chapter 1, the
 XDI authority =alice is related to other authorities =bob and +acme</p>
@@ -10,7 +10,7 @@ which provides for a distributed nature of the XDI graphs.</p>
 
 <p>A <span class="term">peer root node</span> in a XDI graph represents a link to another independent XDI graph with its own address.</p> 
 
-<p>The XDI address of the peer root node contains a single XDI segment representing the XDI authority enclosed in a parenthesis. For example,
+<p>The XDI address of the peer root node contains a single XDI address representing the XDI authority enclosed in a parenthesis. For example,
 =alice's peer root node would be (=alice) or ([=]!:uuid:1111), if we were to use the cloud number version.</p> 
 
 <p>We will now establish that =alice, =bob , +acme are peers with each other by adding 3 peer roots each representing the individual XDI authority to 

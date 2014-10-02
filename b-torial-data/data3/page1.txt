@@ -1,4 +1,4 @@
-<h1>Step 1 : XDI Graph Model additional concepts.</h1>
+<h1>Step 1 : XDI Graph Model additional concepts</h1>
 
 <p>Tutorials 1 and 2 covered the basics of the XDI Graph Model, including
 the types of node and arcs, and some of the functions of context nodes, such
