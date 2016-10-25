@@ -2,7 +2,7 @@
 
 <p>An XDI graph can be fully described as a set of statements.
 A statement corresponds directly to an arc in the graph, therefore in our
-graph we have <span class="term">seven</span> statements.
+graph we have <span class="term">six</span> statements.
 Each statement consists of three parts separated by <span class="code">/</span> characters:
 a subject, predicate and object.</p>
 
@@ -15,7 +15,6 @@ contextual arc to the child context node:</p>
 //=bob
 //+acme
 =alice//&lt;#email&gt;
-=alice&lt;#email&gt;//&
 </span>
 </p>
 
@@ -23,7 +22,7 @@ contextual arc to the child context node:</p>
 the predicate is <span class="code">&</span>, and the object is the literal data:</p>
 
 <p class="indent">
-<span class="code">=alice&lt;#email&gt;&amp;/&amp;/"alice@email.com"
+<span class="code">=alice&lt;#email&gt;/&amp;/"alice@email.com"
 </span>
 </p>
 

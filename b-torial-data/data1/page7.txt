@@ -1,6 +1,6 @@
 <h1>Step 7: Literal Nodes</h1>
 
-<p>So there are two basic types of nodes in an XDI graph:
+<p>To summarize, there are two basic types of nodes in an XDI graph:
 Context nodes and literal nodes. </p>
 
 <p><span class="term">Context nodes</span> can vary in their semantics and fulfill a number of
@@ -9,8 +9,8 @@ fundamentally behave the same way: They
 establish the basic structure of the graph, and they always have
 an address.</p>
 
-<p><span class="term">Literal nodes</span> do not have an address in the graph, and they can exist
-only under a value context node, and they are always leaf nodes in the
+<p><span class="term">Literal nodes</span> also always have an address in the graph, and they can exist
+only under an attribute context node, and they are always leaf nodes in the
 graph.</p>
 
 <p>As has been mentioned before, there are three types of arcs

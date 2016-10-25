@@ -10,12 +10,12 @@ Most contextual statements are <span class="term">implied</span> by
 other statements.</p>
 
 <p>In our example, even though the graph consists of 
-<span class="term">seven</span> statements, only <span class="term">three</span> are actually needed
+<span class="term">six</span> statements, only <span class="term">three</span> are actually needed
 to fully describe the graph. The others are considered to be implied and can therefore be omitted:</p>
 
 <p class="indent">
 <span class="code">//+acme
-=alice&lt;#email&gt;&amp;/&amp;/"alice@email.com"
+=alice&lt;#email&gt;/&amp;/"alice@email.com"
 =alice/#friend/=bob
 </span>
 </p>
