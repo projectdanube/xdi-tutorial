@@ -1,9 +1,7 @@
 xdi-tutorial
 ============
 
-XDI Tutorial content based on the b-torial engine
-
-See here: https://github.com/peacekeeper/b-torial
+XDI Tutorial content based on the b-torial engine: https://github.com/peacekeeper/b-torial
 
 License:
 
