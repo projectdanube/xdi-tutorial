@@ -6,7 +6,7 @@ message may have to provide additional data for
 
 <p>This is most commonly a <span class="term">secret token</span> (password):</p>
 
-<p><span class="code">=bob[$msg]*!:uuid:4378&lt;$secret&gt;&lt;$token&gt;&/&/"s3cr3t"</span></p>
+<p><span class="code">=bob[$msg]*!:uuid:4378&lt;$secret&gt;&lt;$token&gt;/&amp;/"s3cr3t"</span></p>
 
 <p>Authentication materials may also be other kinds of tokens,
 or a cryptographic <span class="term">signature</span>.</p>

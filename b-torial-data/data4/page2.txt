@@ -1,6 +1,6 @@
 <h1>Step 2: HTTP POST Example</h1>
 
-<p>This is a simple example of a message and message result,
+<p>This is a simple example of a request message and response message,
 sent over HTTP from an XDI client to an XDI server.</p>
 
 <p>The standard HTTP <span class="term">Accept</span> and <span class="term">Content-Type</span> headers can be used

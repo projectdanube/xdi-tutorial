@@ -16,7 +16,7 @@ not considered an error.</p>
 </span>
 </p>
 
-<p>Message:</p>
+<p>Request message:</p>
 
 <p class="indent">
 <span class="code">=bob[$msg]*!:uuid:4378$do/$set/=alice&lt;#email&gt;
@@ -27,6 +27,6 @@ not considered an error.</p>
 
 <p class="indent">
 <span class="code">//+acme
-=alice&lt;//#email&gt;
+=alice//&lt;#email&gt;
 </span>
 </p>

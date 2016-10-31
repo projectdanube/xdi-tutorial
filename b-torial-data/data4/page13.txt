@@ -16,14 +16,14 @@ will be empty.</p>
 </span>
 </p>
 
-<p>Message:</p>
+<p>Request message:</p>
 
 <p class="indent">
 <span class="code">=bob[$msg]*!:uuid:4378$do/$get/=alice
 </span>
 </p>
 
-<p>Message result:</p>
+<p>Response message:</p>
 
 <p class="indent">
 <span class="code">=alice&lt;#email&gt;/&amp;/"alice@email.com"
