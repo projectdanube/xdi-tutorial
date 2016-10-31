@@ -1,8 +1,8 @@
 <h1>Step 1: XDI Graph Model additional concepts</h1>
 
-<p>Tutorials 1 and 2 covered the basics of the XDI Graph Model, including
+<p>Tutorials 1 and 2 covered the basics of the XDI graph model, including
 the types of node and arcs, and some of the functions of context nodes, such
-as entities, attributes, values, collections, and members. </p>
+as entities, attributes, collections, and members. </p>
 
 <p>In this Tutorial 3, we will explain the <span class="term">cloud number</span>, the <span class="term">cloud name</span>, <span class="term">equivalence</span>, 
-the other two types of roots ( <span class="term">peer</span>, <span class="term">inner</span> ) and establishing the <span class="term">owner on a graph</span>.</p>
+the other two types of roots (<span class="term">peer root</span>, <span class="term">inner root</span>) and establishing the <span class="term">owner of a graph</span>.</p>

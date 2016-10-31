@@ -4,5 +4,5 @@
 
 An example of an inner root node would be <span class="code">(=alice/#owns)</span>.</p>
 
-<p>The XDI address of an inner root node will contain two XDI addresses, an XDI subject <span class="code">(=alice)</span> followed by 
+<p>The XDI address of an inner root node will contain two XDI addresses, an XDI subject <span class="code">(=alice)</span> followed by an
 XDI relational predicate <span class="code">(#owns)</span>. The XDI statements contained in an inner graph are relative only to that particular inner root node.</p>
