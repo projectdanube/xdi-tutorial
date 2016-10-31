@@ -8,7 +8,7 @@ to indicate the XDI serialization format to use:</p>
 
 <ul>
 <li><span class="term">XDI DISPLAY</span> format: text/xdi</li>
-<li><span class="term">XDI/JSON</span> format: application/xdi+json</li>
+<li><span class="term">JXD</span> format: application/xdi+json</li>
 </ul>
 
 <p>In the next steps, we will look at the exact structure of an XDI message.</p>

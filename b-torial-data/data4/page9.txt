@@ -19,7 +19,7 @@ not considered an error.</p>
 <p>Message:</p>
 
 <p class="indent">
-<span class="code">=bob[$msg]!:uuid:4378$do/$set/=alice&lt;#email&gt;&amp;
+<span class="code">=bob[$msg]*!:uuid:4378$do/$set/=alice&lt;#email&gt;
 </span>
 </p>
 
@@ -27,6 +27,6 @@ not considered an error.</p>
 
 <p class="indent">
 <span class="code">//+acme
-=alice&lt;#email&gt;//&amp;
+=alice&lt;//#email&gt;
 </span>
 </p>

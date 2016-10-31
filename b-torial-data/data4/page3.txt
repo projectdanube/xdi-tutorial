@@ -13,9 +13,9 @@ within an <span class="term">entity collection</span> identified by
 message envelope:</p>
 
 <ul>
-<li><span class="code">=bob[$msg]!:uuid:4378</span></li>
-<li><span class="code">=bob[$msg]!:uuid:8377</span></li>
-<li><span class="code">=bob[$msg]!:uuid:3290</span></li>
+<li><span class="code">=bob[$msg]*!:uuid:4378</span></li>
+<li><span class="code">=bob[$msg]*!:uuid:8377</span></li>
+<li><span class="code">=bob[$msg]*!:uuid:3290</span></li>
 </ul>
 
 <p>The parent entity of a collection of messages is considered

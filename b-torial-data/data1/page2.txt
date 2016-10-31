@@ -1,12 +1,12 @@
 <h1>Step 2: Syntax</h1>
 
-<p>The first thing to learn about XDI is that to build a graph, it uses
-identifiers with important syntactical symbols. For example, the '=' symbol
+<p>The first thing to learn about XDI is that to build a graph, we use
+identifiers with important characters called <span class="term">context symbols</span>. For example, the <span class="code">=</span> context symbol
 is used to identify individuals, therefore a reasonable identifier for
 an individual called "Alice" would be
 <span class="code">=alice</span>.</p>
 
-<p>The list on the left illustrates the most important symbols.</p>
+<p>The list on the left illustrates the most important context symbols.</p>
 
 <p>This means that unlike in RDF and other data models, XDI identifiers are not "opaque".
 Instead, they have certain semantics "built-in".</p>

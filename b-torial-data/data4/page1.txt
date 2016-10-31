@@ -8,10 +8,10 @@ express data.</p>
 <span class="term">target graph</span>,
 and for requesting data from it. Although this is an abstract
 mechanism that can be realized in various ways, typically this means 
-that an XDI client sends a message to an XDI server via <span class="term">HTTP POST</span>.</p>
+that an XDI client sends a message to an XDI server via <span class="term">HTTP POST</span> or <span class="term">WebSocket</span>.</p>
 
-<p>A <span class="term">message</span> may or may not modify the target graph.</p>
+<p>A <span class="term">request message</span> may or may not modify the target graph.</p>
 
-<p>A <span class="term">message</span> always has a <span class="term">message result</span>, which may however be empty.</p>
+<p>A <span class="term">response message</span> always has a <span class="term">message result</span>, which may however be empty.</p>
 
 <p>Both the message and the message result are themselves XDI graphs.</p>

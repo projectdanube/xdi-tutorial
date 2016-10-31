@@ -4,7 +4,7 @@
 Context nodes and literal nodes. </p>
 
 <p><span class="term">Context nodes</span> can vary in their semantics and fulfill a number of
-different functions, such as entities, attributes or values. But they all
+different functions, such as entities or attributes. But they all
 fundamentally behave the same way: They
 establish the basic structure of the graph, and they always have
 an address.</p>

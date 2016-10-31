@@ -5,5 +5,5 @@
 <p>Where to go from here:</p>
 
 <ul><li>Use the <b>XDI Local Messenger</b> tool to experiment with XDI Messaging:</li></ul>
-<a href="http://xdi2.projectdanube.org/XDILocalMessenger">https://xdi2.projectdanube.org/XDILocalMessenger</a>
+<a href="https://server.xdi2.org/XDILocalMessenger">https://server.xdi2.org/XDILocalMessenger</a>
 <ul><li>Go back to the index and proceed to Tutorial 5.</li></ul>

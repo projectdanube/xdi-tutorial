@@ -1,19 +1,17 @@
-<h1>Step 5: Distributed nature of the graphs</h1>
-
-<p>Peer roots</p>
+<h1>Step 5: Peer Roots</h1>
 
 <p>An XDI graph may describe relationships that exist between multiple XDI authorities. In the XDI graph from Chapter 1, the
-XDI authority =alice is related to other authorities =bob and +acme</p>
+XDI authority <span class="code">=alice</span> is related to other authorities <span class="code">=bob</span> and <span class="code">+acme</span>.</p>
 
 <p>The individual XDI graph of each of these authorities is persisted across different cloud service providers 
 which provides for a distributed nature of the XDI graphs.</p>
 
-<p>A <span class="term">peer root node</span> in a XDI graph represents a link to another independent XDI graph with its own address.</p> 
+<p>A <span class="term">peer root node</span> in an XDI graph represents a link to another independent XDI graph with its own address.</p> 
 
 <p>The XDI address of the peer root node contains a single XDI address representing the XDI authority enclosed in a parenthesis. For example,
-=alice's peer root node would be (=alice) or ([=]!:uuid:1111), if we were to use the cloud number version.</p> 
+<span class="code">=alice</span>'s peer root node would be <span class="code">(=alice)</span> or <span class="code">(=!:uuid:1111)</span>, if we use the cloud number version.</p> 
 
-<p>We will now establish that =alice, =bob , +acme are peers with each other by adding 3 peer roots each representing the individual XDI authority to 
+<p>We will now establish that <span class="code">=alice</span>, <span class="code">=bob</span>, <span class="code">+acme</span> are peers with each other by adding 3 peer roots each representing the individual XDI authority to 
 the earlier graph.
 
 For simplicity, please note that cloud names are used in this example instead of the cloud numbers to describe the peer root nodes.</p>

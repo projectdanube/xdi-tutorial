@@ -12,15 +12,15 @@ not considered an error.</p>
 
 <p class="indent">
 <span class="code">//+acme
-=alice&lt;#email&gt;//&amp;
+=alice//&lt;#email&gt;
 </span>
 </p>
 
 <p>Message:</p>
 
 <p class="indent">
-<span class="code">(=bob[$msg]!:uuid:4378$do/$set)=alice&lt;#email&gt;&amp;/&amp;/"alice@email.com"
-(=bob[$msg]!:uuid:4378$do/$set)=alice/#friend/=bob
+<span class="code">(=bob[$msg]*!:uuid:4378$do/$set)=alice&lt;#email&gt;/&amp;/"alice@email.com"
+(=bob[$msg]*!:uuid:4378$do/$set)=alice/#friend/=bob
 </span>
 </p>
 
@@ -28,7 +28,7 @@ not considered an error.</p>
 
 <p class="indent">
 <span class="code">//+acme
-=alice&lt;#email&gt;&amp;/&amp;/"alice@email.com"
+=alice&lt;#email&gt;/&amp;/"alice@email.com"
 =alice/#friend/=bob
 </span>
 </p>

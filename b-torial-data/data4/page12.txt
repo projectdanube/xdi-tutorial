@@ -19,7 +19,7 @@ not considered an error.</p>
 <p>Message:</p>
 
 <p class="indent">
-<span class="code">(=bob[$msg]!:uuid:4378$do/$del)=alice/#friend/=bob
+<span class="code">(=bob[$msg]*!:uuid:4378$do/$del)=alice/#friend/=bob
 </span>
 </p>
 

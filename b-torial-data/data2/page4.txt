@@ -1,8 +1,8 @@
 <h1>Step 4: Members</h1>
 
-<p>The <span class="code">!</span> symbol is used for <span class="term">unordered members</span>.</p>
+<p>To represent <span class="term">unordered members</span>, we use the context symbol for things <span class="code">*</span> together with the immutability symbol <span class="code">!</code>.</p>
 
-<p>The <span class="code">@</span> symbol is used for <span class="term">ordered members</span>.</p>
+<p>To represent <span class="term">ordered members</span>, we use the context symbol for order <span class="code">@</span> together with the relativity symbol <span class="code">~</code>.</p>
 
 <p>In this diagram, the members are ordered and
 identified by sequential numbers.</p>
@@ -10,8 +10,8 @@ identified by sequential numbers.</p>
 <p>The addresses of the three entity members in the graph are:</p>
 
 <p class="indent">
-<span class="code">=alice[#event]@0
-=alice[#event]@1
-=alice[#event]@2
+<span class="code">=alice[#event]@~0
+=alice[#event]@~1
+=alice[#event]@~2
 </span>
 </p>

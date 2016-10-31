@@ -7,4 +7,4 @@ peer root of the recipient authority).</p>
 <p>This is modeled as a <span class="code">$is()</span> relational
 arc on the message:</p>
 
-<p><span class="code">=bob[$msg]!:uuid:4378/$is()/(=alice)</span></p>
+<p><span class="code">=bob[$msg]*!:uuid:4378/$is()/(=alice)</span></p>

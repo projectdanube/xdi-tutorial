@@ -4,9 +4,9 @@
 unordered entity members:</p>
 
 <ul>
-<li><span class="code">=bob[$msg]@0</span></li>
-<li><span class="code">=bob[$msg]@1</span></li>
-<li><span class="code">=bob[$msg]@2</span></li>
+<li><span class="code">=bob[$msg]@~0</span></li>
+<li><span class="code">=bob[$msg]@~1</span></li>
+<li><span class="code">=bob[$msg]@~2</span></li>
 </ul>
 
 <p>This should be done if the messages have to be executed

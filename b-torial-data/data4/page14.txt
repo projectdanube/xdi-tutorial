@@ -11,7 +11,7 @@ will be empty.</p>
 
 <p class="indent">
 <span class="code">//+acme
-=alice&lt;#email&gt;&amp;/&amp;/"alice@email.com"
+=alice&lt;#email&gt;/&amp;/"alice@email.com"
 =alice/#friend/=bob
 </span>
 </p>
@@ -19,7 +19,7 @@ will be empty.</p>
 <p>Message:</p>
 
 <p class="indent">
-<span class="code">(=bob[$msg]!:uuid:4378$do/$get)=alice/#friend/=bob
+<span class="code">(=bob[$msg]*!:uuid:4378$do/$get)=alice/#friend/=bob
 </span>
 </p>
 

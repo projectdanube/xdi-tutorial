@@ -1,6 +1,4 @@
 <h1>Step 2: Cloud Name</h1>
 
-<p>Cloud Name</p>
-
 <p>A <span class="term">cloud name</span> is a human-readable identifier for an <span class="term">XDI authority</span> (a person, an organization or a thing). It may be registered with the help of a <span class="term">cloud service provider (CSP).</span></p>
 

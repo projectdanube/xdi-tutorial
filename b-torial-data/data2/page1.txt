@@ -5,7 +5,7 @@ We saw that there are <span class="term">two types of nodes</span> (context node
 and <span class="term">three types of arcs</span> (contextual arcs, literal arcs, and relational arcs).</p>
 
 <p>We also saw that context nodes can fulfill different functions, such as
-entities, attributes, and values.</p>
+entities or attributes.</p>
 
 <p>In this Tutorial 2, we will cover two further functions context nodes can
 assume.</p>

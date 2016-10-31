@@ -1,10 +1,10 @@
 <h1>Step 3: Cloud Number</h1>
 
-<p>Cloud Number</p>
+<p>An XDI authority has the ability to change a registered cloud name at any point, i.e., the cloud name is <span class="term">reassignable</span>.
+Thus, for technical reasons, a secondary identifier is needed that doesn't change, i.e. is <span class="term">persistent</span>.</p>
 
-<p>An XDI authority has the ability to change a registered cloud name at any point, i.e., the cloud name is reassignable.
-Thus, for technical reasons, a secondary identifier is needed that doesn't change and the <span class="term">cloud number</span> provides this function.</p>
+<p>The <span class="term">cloud number</span> provides this function.</p>
 
 <p>A cloud number is a unique identifier which is a system generated value and does not change over the lifecycle of the personal cloud. 
 It is constructed as a UUID (Universally Unique Identifier) and although the UUID is a 36 character long value,
-for this tutorial's purposes, we will use simple UUIDs for the xdi authorities described in Chapter 1.</p>
+for this tutorial's purposes, we will use simple UUIDs for the XDI authorities as described in Chapter 1.</p>
